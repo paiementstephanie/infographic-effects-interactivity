@@ -39,5 +39,14 @@ svg {
 }
 
 .right-paw:hover {
-  transition: linear 300ms;
+  transition: linear 200ms;
+}
+
+.left-paw:hover {
+  transition: linear 200ms;
+}
+
+
+.slide {
+  bottom: 100px;
 }
