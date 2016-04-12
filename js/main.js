@@ -1,9 +1,19 @@
 var $body = $('body');
 
-$body.on('hover', '.right-paw', function () {
-  $('.right-paw').toggleClass('slide');
+$body.on('mouseover', '.right-paw', function () {
+  $('.right-paw').addClass('slide');
 });
 
-$body.on('hover', '.left-paw', function () {
-  $('.left-paw').toggleClass('slide');
+$body.on('mouseout', '.right-paw', function () {
+  $('.right-paw').removeClass('slide');
 });
+
+$body.on('mouseover', '.left-paw', function () {
+  $('.left-paw').addClass('slide');
+});
+
+$body.on('mouseout', '.right-paw', function () {
+  $('.left-paw').removeClass('slide');
+});
+
+

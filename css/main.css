@@ -40,13 +40,14 @@ svg {
 
 .right-paw:hover {
   transition: linear 200ms;
+  transform: translateY(-100px);
 }
 
 .left-paw:hover {
   transition: linear 200ms;
+  transform: translateY(-100px);
 }
 
-
 .slide {
-  bottom: 100px;
+  transform: translateY(0);
 }
