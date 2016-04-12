@@ -37,3 +37,7 @@ svg {
 .cat-logo {
   background-color: #f05474;
 }
+
+.right-paw:hover {
+  transition: linear 300ms;
+}
