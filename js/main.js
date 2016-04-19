@@ -25,7 +25,7 @@ $dog.waypoint(function (direction) {
     $dog.removeClass('js-svg-animate');
   }
 
-}, {offset: '50%' });
+}, {offset: '50%'});
 
 $cat.waypoint(function (direction) {
   if (direction == 'down') {
@@ -34,4 +34,4 @@ $cat.waypoint(function (direction) {
     $cat.removeClass('js-svg-animate');
   }
 
-}, {offset: '50%' });
+}, {offset: '50%'});
