@@ -88,3 +88,17 @@ svg {
 .yarn-bottom:hover{
   transform: rotate(45deg);
 }
+
+.dog {
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+.cat {
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+.js-svg-animate {
+  opacity: 1;
+}
