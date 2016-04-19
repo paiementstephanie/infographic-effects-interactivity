@@ -30,6 +30,10 @@ svg {
   height: 100%;
 }
 
+h1 {
+  margin: 0;
+}
+
 .paw-banner {
   background-color: #f05474;
 }
