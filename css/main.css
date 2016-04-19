@@ -52,40 +52,40 @@ svg {
   transform: translateY(0);
 }
 
-.sparkle{
+.sparkle {
   animation: pulse 1s linear infinite alternate;
   transition: linear 200ms;
   transform-origin: 71.7px 98px;
 }
 
+@keyframes pulse {
 
-@keyframes pulse{
-  0%{
+  0% {
     opacity: .2;
     transform: scale(.8);
   }
+
+  100% {
+    opacity: 1;
+    transform: scale(1.3);
+  }
 }
 
-100% {
-  opacity: 1;
-  transform: scale(1.3);
-}
-
-.yarn-top{
+.yarn-top {
   transition: linear 200ms;
   transform-origin: 738.7px 187.6px;
 }
 
-.yarn-top:hover{
+.yarn-top:hover {
   transform: rotate(45deg);
 }
 
-.yarn-bottom{
+.yarn-bottom {
   transition: linear 200ms;
   transform-origin: 745.5px 323px;
 }
 
-.yarn-bottom:hover{
+.yarn-bottom:hover {
   transform: rotate(45deg);
 }
 
