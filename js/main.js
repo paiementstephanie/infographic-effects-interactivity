@@ -16,4 +16,3 @@ $body.on('mouseout', '.right-paw', function () {
   $('.left-paw').removeClass('slide');
 });
 
-
