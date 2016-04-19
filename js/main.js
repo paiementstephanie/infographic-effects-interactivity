@@ -1,6 +1,7 @@
 var $body = $('body');
 var $dog = $('.dog');
 var $cat = $('.cat');
+var $catvdogs = $ ('.cat-v-dogs')
 
 $body.on('mouseover', '.right-paw', function () {
   $('.right-paw').addClass('slide');
@@ -18,20 +19,20 @@ $body.on('mouseout', '.right-paw', function () {
   $('.left-paw').removeClass('slide');
 });
 
-$dog.waypoint(function (direction) {
+$catvdogs.waypoint(function (direction) {
   if (direction == 'down') {
     $dog.addClass('js-svg-animate');
   } else {
     $dog.removeClass('js-svg-animate');
   }
 
-}, {offset: '50%'});
+}, {offset: '-20%'});
 
-$cat.waypoint(function (direction) {
+$catvdogs.waypoint(function (direction) {
   if (direction == 'down') {
     $cat.addClass('js-svg-animate');
   } else {
     $cat.removeClass('js-svg-animate');
   }
 
-}, {offset: '50%'});
+}, {offset: '-25%'});
