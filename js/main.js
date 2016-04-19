@@ -1,7 +1,7 @@
 var $body = $('body');
 var $dog = $('.dog');
 var $cat = $('.cat');
-var $catvdogs = $ ('.cat-v-dogs')
+var $catvdogs = $('.cat-v-dogs');
 
 $body.on('mouseover', '.right-paw', function () {
   $('.right-paw').addClass('slide');
