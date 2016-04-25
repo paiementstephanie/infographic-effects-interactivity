@@ -106,3 +106,43 @@ h1 {
 .js-svg-animate {
   opacity: 1;
 }
+
+.fish {
+  transition: linear 200ms;
+}
+
+.fish:hover {
+  transform: scale (1, 1.7);
+}
+
+.litter {
+  transition: linear 200ms;
+}
+
+.litter:hover {
+  transform: scale (1, 1.7);
+}
+
+.needle {
+  transition: linear 200ms;
+}
+
+.needle:hover {
+  transform: scale (1, 1.7);
+}
+
+.yarn {
+  transition: linear 200ms;
+}
+
+.yarn:hover {
+  transform: scale (1, 1.7);
+}
+
+.comb {
+  transition: linear 200ms;
+}
+
+.comb:hover {
+  transform: scale (1, 1.7);
+}
