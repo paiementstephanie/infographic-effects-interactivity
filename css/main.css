@@ -109,6 +109,7 @@ h1 {
 
 .fish {
   transition: linear 200ms;
+  transform-origin: 352px 231px;
 }
 
 .fish:hover {
