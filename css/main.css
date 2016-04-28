@@ -112,7 +112,7 @@ h1 {
 }
 
 .fish:hover {
-  transform: scale (1, 1.7);
+  transform: scale(1, 1.7);
 }
 
 .litter {
@@ -120,7 +120,7 @@ h1 {
 }
 
 .litter:hover {
-  transform: scale (1, 1.7);
+  transform: scale(1, 1.7);
 }
 
 .needle {
@@ -128,7 +128,7 @@ h1 {
 }
 
 .needle:hover {
-  transform: scale (1, 1.7);
+  transform: scale(1, 1.7);
 }
 
 .yarn {
@@ -136,7 +136,7 @@ h1 {
 }
 
 .yarn:hover {
-  transform: scale (1, 1.7);
+  transform: scale(1, 1.7);
 }
 
 .comb {
@@ -144,5 +144,5 @@ h1 {
 }
 
 .comb:hover {
-  transform: scale (1, 1.7);
+  transform: scale(1, 1.7);
 }
