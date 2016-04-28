@@ -109,41 +109,45 @@ h1 {
 
 .fish {
   transition: linear 200ms;
-  transform-origin: 352px 231px;
+  transform-origin: 65px 233px;
 }
 
 .fish:hover {
-  transform: scale(1, 1.7);
+  transform: scale(1, 1.5);
 }
 
 .litter {
   transition: linear 200ms;
+  transform-origin: 135px 236px;
 }
 
 .litter:hover {
-  transform: scale(1, 1.7);
+  transform: scale(1, 1.5);
 }
 
 .needle {
   transition: linear 200ms;
+  transform-origin: 207px 236px;
 }
 
 .needle:hover {
-  transform: scale(1, 1.7);
+  transform: scale(1, 1.5);
 }
 
 .yarn {
   transition: linear 200ms;
+  transform-origin: 278px 236px;
 }
 
 .yarn:hover {
-  transform: scale(1, 1.7);
+  transform: scale(1, 1.5);
 }
 
 .comb {
   transition: linear 200ms;
+  transform-origin: 352px 231px;
 }
 
 .comb:hover {
-  transform: scale(1, 1.7);
+  transform: scale(1, 1.5);
 }
