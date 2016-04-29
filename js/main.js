@@ -26,7 +26,7 @@ $catvdogs.waypoint(function (direction) {
     $dog.removeClass('js-svg-animate');
   }
 
-}, {offset: '-20%'});
+}, {offset: (document.documentElement.clientWidth >= 780) ? '-20%' : 'bottom-in-view'});
 
 $catvdogs.waypoint(function (direction) {
   if (direction == 'down') {
@@ -35,4 +35,4 @@ $catvdogs.waypoint(function (direction) {
     $cat.removeClass('js-svg-animate');
   }
 
-}, {offset: '-25%'});
+}, {offset: (document.documentElement.clientWidth >= 780) ? '-25%' : 'bottom-in-view'});
